@@ -6,9 +6,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-extern updatesrc();
-extern updatebinary();
-extern syssoftstatus();
+extern void updatesrc();
+extern void updatebinary();
+extern void syssoftstatus();
 int main(int argc, char *argv[])
 {
   printf("PWN Framework V1.0A By DarrenRainey\n");
@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
   while (loop = 1)
   {
   printf("======== Main Menu ========\n");
-  printf("[0] Check For Source Code Updates\n")
+  printf("[0] Check For Source Code Updates\n");
   printf("[1] Check For Binary Update From Custom Server\n");
   printf("[2] Systen And Software Status\n");
   
