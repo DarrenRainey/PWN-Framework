@@ -5,6 +5,6 @@
 
 void updatebinary()
 {
-  printf("============ Binary Update =========\n");
+  printf("======== Binary Update ========\n");
   printf("Check For Updates From Server : %s\n",SERVER);
 }
